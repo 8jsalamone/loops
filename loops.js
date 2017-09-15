@@ -1,16 +1,26 @@
-function loopOne(time){
-  let time = 40
+function loopOne(){
 
+  let time = 40;
+  while (time > 0){
+      if(time % 5 == 0){
+          console.log("AHHHHHHHHHHHHHHH"+time+"seconds left");
+      }
+      console.log(time+"seconds left.");
+      time = time - 1;
+  }
+console.log("Done Boi!");
 }
 
-function loopTwo(){
 
+function loopTwo(number,power){
+    for (let sum=1; sum<100; sum=sum+number){
 
+    }
+for(number=1; number < 100; number=2*number){
+  console.log(sum)}
 }
 
 function loopThree(){
-
-
 }
 
 function main(){
@@ -32,4 +42,5 @@ function main(){
 
 //Hit ctrl + Shift + B to run the program.
 //Hit ESC to make the printout messages go away.
+
 main();
