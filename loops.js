@@ -13,14 +13,20 @@ console.log("Done Boi!");
 
 
 function loopTwo(number,power){
-    for (let sum=1; sum<100; sum=sum+number){
-
-    }
-for(number=1; number < 100; number=2*number){
-  console.log(sum)}
+  let sum=0
+  for(let p=0; p <= power; p++){
+    sum = sum + Math.pow(number,p)
+  }
+  return sum;
 }
 
-function loopThree(){
+
+function loopThree(symbol, number){
+  let lastime = "";
+  for(let s =1 ; s <= number; s++){
+    lastime=lastime+symbol;
+    console.log(lastime)
+  }
 }
 
 function main(){
